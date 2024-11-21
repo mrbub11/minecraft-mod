@@ -1,0 +1,23 @@
+{
+    "schemaVersion": 1,
+    "id": "ancientdebrisfinder",
+    "version": "1.0.0",
+    "name": "Ancient Debris Finder",
+    "description": "A mod to find ancient debris and create waypoints.",
+    "authors": ["mrbub"],
+    "contact": {
+        "sources": ""
+    },
+    "license": "MIT",
+    "environment": "*",
+    "entrypoints": {
+        "main": [
+            "com.yourname.ancientdebrisfinder.Main"
+        ]
+    },
+    "depends": {
+        "fabricloader": ">=0.14.22",
+        "minecraft": "1.20.1",
+        "fabric": "*"
+    }
+}
